@@ -32,7 +32,7 @@ The demo runs on a personal machine behind a tunnel, so it is sometimes offline.
 ## What it does
 
 - **Standards-based sign-in.** Authorization code flow with PKCE required for every client, signed ID and access tokens (RS256) with a published key set, discovery document, user-info and end-session endpoints. Signing keys are managed from the console.
-- **Central sign-out.** Signing out, or disabling a person, ends their sessions in every connected application through back-channel logout.
+- **Central sign-out.** Signing out, or deactivating an account, ends the person's sessions in every connected application through back-channel logout.
 - **Per-application roles.** The provider supplies identity and group membership; each application keeps its own role system. A client only receives the roles that belong to it, never another system's roles.
 - **Identity sources.** Active Directory (LDAP) with a local user store as fallback.
 - **Two ways to connect an application.** As a standard OIDC client (preferred, any language), or through a token bridge for an application whose own login cannot be changed. The guest management system connects this way.

@@ -9,7 +9,7 @@ A custom OpenID Connect identity provider with an admin console and an applicati
 | **What it is** | OpenID Connect provider, admin console and application launcher |
 | **Stack** | Node.js, TypeScript, Express 5, `oidc-provider`, PostgreSQL, Next.js 16 |
 | **Quality** | 831 automated tests in 61 suites, with the test report generated and checked in CI |
-| **Live demo** | [Identity portal](https://saas-portal-iota.vercel.app/sso/portal) |
+| **Live demo** | [Open it from the portfolio](https://dawitbkportfolio.vercel.app/#demos), which shows whether the demo server is online and has the sandbox login |
 | **My role** | Architect and lead engineer: requirements, design, build, deployment and verification |
 
 ## Try it live
@@ -18,7 +18,7 @@ A custom OpenID Connect identity provider with an admin console and an applicati
 2. Sign in at the [identity portal](https://saas-portal-iota.vercel.app/sso/portal). The portal lists every connected application; choose one and you are signed in to it automatically.
 3. Open the **Admin Console** to see users, groups, applications, sessions, sign-ins, the audit log and system health.
 
-The demo runs on a personal machine behind a tunnel, so it is sometimes offline. The data is synthetic.
+The demo runs on a server of my own, so it is sometimes offline (a restart, a power cut or maintenance). The portfolio shows its status and, when it is offline, how to reach me. The data is synthetic.
 
 ## Screenshots
 
